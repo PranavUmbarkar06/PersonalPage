@@ -1,12 +1,33 @@
 <html>
 <head><title>Form</title>
+<style>
+    .MAINForm{
+        background-color: rgb(255, 255, 255,0.3);
+        position:absolute;
+        top:200px;
+        left:30%;
+        right:30%;
+        padding:20px;
+    }
+    .LOGO{
+        background-color: rgb(255, 255, 255,0.7 );
+        position:absolute;
+        left:25%;
+    }
+    .MARQ{
+        background-color: rgb(255, 255, 255,0.6);
+        position:absolute;
+        top:150px;
+        left:45%;
 
+    }
+    </style>
 
 </head>
-<body style="background-image: url('https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');" ><img src="NITWLOGO.png" align="centre">
-<h2><marquee behavior="Alternate" scrollamount="10">User Details</marquee></h2>
-<div>
-<form style="font-weight:bold"><pre>
+<body style="background-image:radial-gradient(rgb(78, 0, 0),black);" ><div class="LOGO"><img src="NITWLOGO.png" align="centre" ></div>
+<h2><div class="MARQ"><marquee behavior="Alternate" scrollamount="10">User Details</marquee></div></h2>
+<div class="MAINForm">
+<form style="font-weight:bold;"><pre>
 
 First Name : <input type="text" value=""><br>
 Last Name :  <input type="text" value=""></pre>
@@ -44,7 +65,7 @@ Address : <br><br>
 
 <input type="Submit" value="Submit"><input type="Reset" value="Reset">
 </form>
-<div>
+</div>
 
 </body>
 </html>
